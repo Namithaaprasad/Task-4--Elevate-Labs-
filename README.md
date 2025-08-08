@@ -1,2 +1,4 @@
 # Task-4--Elevate-Labs-
 Classification with Logistic Regression.
+This project demonstrates a full binary classification pipeline using logistic regression on the Breast Cancer Wisconsin (Diagnostic) Data Set. The process begins with importing and exploring the data, followed by data cleaning (handling missing values) and preprocessing (encoding categorical variables and standardizing numerical features). After preparing the data, it is split into training and testing sets. A Logistic Regression model is trained using scikit-learn, and evaluated using a confusion matrix, precision, recall, and ROC-AUC score to assess its performance. The classification threshold is manually tuned to optimize for sensitivity or specificity based on context. Additionally, the sigmoid function used in logistic regression is explained to understand how probabilities are generated and converted into class predictions.
+
